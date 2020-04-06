@@ -1,7 +1,6 @@
 class Dog
  
 attr_accessor :id, :name, :breed
-  @@all = []
  
   def initialize(id=nil, name:, breed:)
     @id = nil
