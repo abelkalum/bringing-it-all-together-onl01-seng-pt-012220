@@ -7,7 +7,7 @@ attr_accessor :id, :name, :breed
     @id = id
     @name = name
     @breed = breed
-    
+    @@all << self
   end
   
 end
