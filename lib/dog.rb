@@ -37,6 +37,8 @@ attr_accessor :id, :name, :breed
 
     self
   end
+  
+  
 
   
 end
