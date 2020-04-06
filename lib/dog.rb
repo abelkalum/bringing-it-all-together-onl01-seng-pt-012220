@@ -4,7 +4,7 @@ attr_accessor :id, :name, :breed
   @@all = []
  
   def initialize(id=nil, name:, breed:)
-    @id = id
+    @id = nil
     @name = name
     @breed = breed
     @@all << self
