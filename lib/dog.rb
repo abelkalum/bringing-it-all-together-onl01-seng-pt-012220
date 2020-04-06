@@ -8,7 +8,6 @@ attr_accessor :id, :name, :breed
     @name = name
     @breed = breed
     @@all << self
-    binding.pry
   end
   
 end
