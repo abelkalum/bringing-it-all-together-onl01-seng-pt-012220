@@ -7,4 +7,6 @@ attr_accessor :id, :name, :breed
     self.id ||= nil
   end
   
+  
+  
 end
